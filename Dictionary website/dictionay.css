@@ -1,0 +1,89 @@
+body{
+    background-color: rgb(98, 107, 233);
+    background-image: url("https://img.freepik.com/premium-vector/school-supplies-set-linear-image-black-outline-coloring-page_652394-152.jpg");
+
+
+    background-blend-mode:multiply;
+    
+
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    padding:80px 50px;
+    background-color: white;
+    width: 90vmin;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    border-radius: 11px;
+    box-shadow: 0 15px 40px rgb(58, 55, 55);
+}
+.searchbox{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.searchbox input{
+    padding: 7px;
+    width: 70%;
+    border: none;
+    border-bottom: 2px solid rgb(133, 128, 128);
+    outline: none;
+    font-size: 20px;
+
+}
+.searchbox button{
+    padding: 15px;
+    border: none;
+    color: white;
+    background-color: rgb(98, 107, 233);
+    border-radius: 5px;
+    font-size: 15px;
+    width: 25%;
+}
+.result{
+    position: relative;
+}
+.result h3{
+    font-size: 35px;
+}
+.word{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 80px;
+}
+.word button{
+    border: none;
+    background-color: transparent;
+    color: rgb(98, 107, 233);
+    font-size: 20px;
+    outline: none;
+
+}
+.detail{
+    display: flex;
+    color: rgb(151, 149, 149);
+    gap: 10px;
+    font-size: 15px;
+    margin: 5px 0 20px 0;
+}
+.wordmeans{
+    color: rgb(87, 85, 85);
+    
+}
+.exword{
+    color: rgb(87, 85, 85);
+    font-style: italic;
+    border-left: 5px solid rgb(98, 107, 233);
+    padding-left: 23px;
+    margin-top: 31px;
+}
+.error{
+    margin-top: 80px;
+    text-align: center;
+}
