@@ -40,7 +40,7 @@ It will adapt its layout and design to provide an optimal viewing and usage expe
 * Dictionary API: Used to fetch word meanings and pronunciations.
 # Installation:
 1.Clone the repository to your local machine:
-git clone <repository-url>
+git clone <[repository-url](https://github.com/RakeshD-19/Dictionary-Application.git)>
 
 2.Open the index.html file in your web browser.
 
